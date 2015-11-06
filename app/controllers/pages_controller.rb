@@ -1,6 +1,7 @@
 class PagesController < ApplicationController
   def home
   	@title='Home'
+  	@greeting='Hello Rails! :)'
   end
 
   def contact
